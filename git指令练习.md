@@ -11,15 +11,15 @@
 
 
 # git clone xxxx=>克隆地址  克隆仓库到本地 
-# git pull origin xxx => 拉去分支名  拉取到本地仓库
-# git add ./   添加代码到本地暂存区 
-# git commit -m "ds"  提交代码到本地仓库 
+# git pull origin xxx => 拉取的远程分支名  拉取到本地仓库
+# git add ./   添加代码到本地暂存区
+# git commit -m "ds"  提交代码到本地仓库
 # git push origin  xxx=>分支名  推送到远程仓库
 
 
 # git checkout 切换分支
 # git branch 创建查看分支
-# git merge  合并分支 
-# git merge master  (test)   把master 分支的代码合并到 test分支 
+# git merge xxx 合并分支  => 切换到想要合并的分支 => xxx是被合并的分支
+## git merge master  (test)   把master 分支的代码合并到 test分支
 # git push origin dev:dev  将本地的dev推送到远程的dev
-# git push origin master:test   本地的master 推送到远程的 test 分支 
+# git push origin master:test   本地的master 推送到远程的 test 分支
